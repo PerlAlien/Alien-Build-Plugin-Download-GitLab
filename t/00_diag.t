@@ -12,7 +12,11 @@ my $post_diag;
 $modules{$_} = $_ for qw(
   Alien::Build::Plugin
   ExtUtils::MakeMaker
+  JSON::PP
+  Path::Tiny
   Test2::V0
+  URI
+  URI::Escape
 );
 
 
